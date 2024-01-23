@@ -35,11 +35,11 @@ resource "aws_instance" "prod-ec2" {
 }
 
 resource "aws_s3_bucket" "prod-s3-bucket" {
-    bucket = "prod-s3-bucket"
+    bucket = "effulgencetech-prod-s3-bucket"
     acl = "private"
 
     tags = {
-      Name = "prod-s3-bucket"
+      Name = "effulgencetech-prod-s3-bucket"
     }
   
 }
